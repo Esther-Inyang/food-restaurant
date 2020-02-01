@@ -166,6 +166,7 @@ input[type=text]{
 
 /*section1*/
 .section1-div {
+    width: 100%;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -235,12 +236,12 @@ input[type=text]{
     height: 500px;
     background: url("images/vegetables.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .social {
-    width: 10%;
-    margin: 250px 0 0 50px;
+    width: 5%;
+    margin: 250px 0 0 0;
     height: 220px;
 }
 
@@ -709,7 +710,7 @@ footer{
     }    
     
     .foodimg-large {
-        width: 100%;
+        width: 80%;
         height: 400px;
         margin: 40px auto;
     }
